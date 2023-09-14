@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(87, 200, 238);
+}
+.navbar {
+    background-color: #24252a;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.navbar  .items, .contact, .img_logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 80px;
+}
+.logo 
+{
+    font-family: poppins;
+    font-size: 20px;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+}
+.logo span {
+    color: greenyellow;
+}
+.logo::selection, span::selection {
+    background-color: transparent;
+}
+.items li, a {
+    color: #fff;
+    font-size: 20px;
+    font-family: poppins;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    transition: color .3s;
+}
+.items li a:hover {
+    color: #0088a9;
+}
+
+.btn 
+{
+    box-shadow: none;
+}
+
+.btn:focus
+{
+    box-shadow: none;
+}
+
+.my_cv
+{
+    border: none;
+    outline: none;
+    background-color: #0088a9;
+    color: #fff;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: verdana;
+    transition:  .3s;
+    margin-right: 10px;
+}
+
+.my_cv:hover {
+    background-color: rgba(0, 136, 139, 0.8);
+    cursor: pointer;
+}
+
+.img_logo
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 220px;
+}
+
+.dark-mode {
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+.my_text
+{
+    text-align: left;
+    font-size: 35px;
+    font-family: poppins;
+    margin-top: 220px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+.footer
+{
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    padding: 5px 0;
+    background-color: #24252a;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer .social_icons
+{
+    text-align: center;
+    padding-bottom:0px;
+    color: #fff;
+}
+
+.footer .social_icons a
+{
+    font-size: 25px;
+    color: inherit;
+    width:40px;
+    height: 40px;
+    line-height: 43px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 0.75;
+}
+
+.coding_image
+{
+    height: 300px;
+    width: 300px;
+}
+
+.footer .social_icons a:hover
+{
+    opacity: 0.9;
+}
+
+.footer .copyright
+{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.contect_section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+
+.my_text_about 
+{
+    text-align: center;
+} 
+.contect_section img
+{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.my_text span
+{
+    color: greenyellow;
+    font-size: 25px;
+}
+
+.project
+{
+    text-align: center;
+    font-size: 40px;
+    color: greenyellow;
+    margin-top: 250px;
+}
+
+.myself
+{
+    height: 500px;
+    width: 500px;
+}
+
+.info_myself
+{
+    font-size: 20px;
+    
+}
+
+.my_text_about .name
+{
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+    font-family: poppins;
+    margin-top: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: greenyellow;
+}
+
+.contactpage_button
+{
+    border: none;
+    outline: none;
+    background-color: #0088a9;
+    color: #fff;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: verdana;
+    transition:  .3s;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.contactpage_button:hover {
+    background-color: rgba(0, 136, 139, 0.8);
+    cursor: pointer;
+}
+
+.noob_btn
+{
+    text-align: center;
+}
+
+.img-fluid
+{
+    border-radius: 20%;
+    margin-left: 30px;
+    margin-top: 170px;
+}
+
+.nav-item
+{
+    margin-left: 25px;
+}

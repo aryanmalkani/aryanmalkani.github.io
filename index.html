@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IEedge">
+    
+    <title>Aryan Malkani</title>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" type="image/x-icon" href="gamer.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="programmer.png" class="img_logo" alt="Logo"></a>
+        <span class="navbar-brand">Aryan Malkani</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <button class="btn btn-primary" onclick="darkMode()">Darkmode</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="my_text">
+                        <p><i>Aryan Malkani</i></p>
+                        <p><span>Student</span> <span>- Developer</span> <span>- Gamer</span></p>
+                        <p><a class="btn btn-primary" href="https://drive.google.com/file/d/1QkvpkAQuP8Wswqurpvbirpgwrozankm4/view?usp=sharing" target="_blank">Download CV</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid " src="codingboy.gif" alt="Coding Image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social_icons">
+                        <a href="https://github.com/aryanmalkani" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/aryannnnn.exe" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://discordapp.com/users/403898376141144085" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://steamcommunity.com/id/aryan-iwnl/" target="_blank"><i class="fab fa-steam"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="copyright text-center">Aryan Malkani @ 2023-Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
